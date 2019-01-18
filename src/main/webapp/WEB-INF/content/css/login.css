@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
+
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+a{
+    cursor: pointer;
+}
+.container{
+  margin-top: 50PX;
+  width: 550px;
+}
+.form-control{
+  font-size: 13px;
+}
+.login{
+  background: #fff;
+  border-radius: 3px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  box-shadow: 0px 5px 20px 3px rgba(0, 0, 0, 0.07);
+  background: rgba(255, 255, 255, 0.97);
+  border-left: 6px solid #f5be1a;
+}
+ .title-system{
+     font-size: 25px;
+     text-align:center;
+     font-style:bold;
+     font-weight:bold;
+ }
+.icon{
+  background-color: #fff;
+  border: 2px solid #eaeaea;
+  box-shadow:none;
+  height: auto;
+  padding: 10px 12px;
+}
+#btnLogin{
+  background: #024ba2;
+  color: #fff;
+      padding: 8px 45px;
+      font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.08);transition: all 0.6s ease;
+}
+
+#btnLogin:hover{
+    background: #f5be1a;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.fa{
+  color: #bbbaba;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+.title-login{
+    margin: 24px auto;
+    text-align: center;
+    font-weight: 600;
+     /*text-transform: uppercase;*/ 
+    font-size: 16px;
+    font-weight:bold;
+}
+.title-login:after {
+    display: inline-block;
+    margin: 0 0 4px 20px;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #f5be1b;
+    width: 40px;
+}
+.title-login:before {
+    display: inline-block;
+    margin: 0 20px 4px 0;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #f5be1b;
+    width: 40px;
+}
+
+.Signup_wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: whitesmoke;
+    background-image: url(../images/background2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    height: 672px;
+}
+.trans .row{
+          position: relative;
+          bottom: 0;
+          background: rgb(0, 0, 0); /* Fallback color */
+          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+          color: #f1f1f1;
+          width: 100%;
+          padding: 20px;
+          }
+.link{
+  color:whitesmoke;
+  font-weight:bold;
+}
+.link-sidebar{
+  color: #f5be1b;
+  font-weight:bold;
+}
+#ssmTrans,#ssmHead{
+    background: rgb(0, 0, 0);
+    
+    color: #f1f1f1; 
+    padding: 20px;
+}
+#ssmHead{
+    background: rgba(0, 0, 0, 0);
+}
+#ssmClos{
+    color: red;
+    font-weight: bold;font-size: xx-large;
+}
+#ssmTrans{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+input, .actual-edit-overlay {
+    -webkit-text-fill-color: white ;
+    font-weight: bold;
+}
+#attach, .actual-edit-overlay {
+    -webkit-text-fill-color: black ;
+    font-weight: bold;
+}
+select,option, .actual-edit-overlay {
+    -webkit-text-fill-color: white ;
+    font-weight: bold;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0  50px black inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: white;
+}
+input:-webkit-autofill:focus {
+    -webkit-box-shadow:black, /*your box-shadow*/0 0 0  100px black inset;
+    -webkit-text-fill-color: black;
+}
+#username, #password, #city,#srch-term, #postcode, #address, #search,
+#name_of_comp, #state, #country, #email, #ph_no,
+#fx_no, #name, #icNo, #PhoneNo, #userType, #attach,
+#group_ma, #role, #unit_ma{
+    background: rgba(0, 0, 0, 0.4);color: white;width: 100%;
+}
+#ssmTab tr{
+    background-color: rgba(0, 0, 0, 0);
+}
+#ssmTab tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+#ssmTab tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0);
+}
+/*tr:nth-child(odd) {background-color: white;}*/
+
+
